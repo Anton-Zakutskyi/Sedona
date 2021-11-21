@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: auto;
+}
+body{
+    background-color: #E5E5E5;
+    padding: 0 40px;
+
+}
+body > div{
+    background-color: #FFFFFF;
+}
+.shadow{
+    box-shadow: 0 0 5px 2px gray;
+}
+nav .wrapper{
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0 71px;
+    display: flex;
+}
+nav .wrapper > div {
+    width: 33%;
+    max-height: 65px;
+}
+
+.nav-list > li{
+    display: inline-block;
+    margin-right: 33px;
+}
+.nav-list > li:last-of-type{
+    margin-right: 0;
+}
+.logo{
+    display: block;
+    margin: 0 auto;
+}
+.nav-search > a{
+    display: inline-block;
+    margin-right: 21px;
+}
+.nav-search > a:last-of-type {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #756257;
+    padding: 9px 33px 10px 33px;
+    text-decoration: none;
+    width: 160px;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.main-content{
+
+}
+.main-content .wrapper {
+
+}
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/index_background.svg");
+    background-size: cover;
+    padding: 46px 0 0 0;
+}
+.welcome-bottom{
+    margin: auto;
+    width: 100%;"
+}
+
+.sedona-small{
+    max-width: 720px;
+    margin: auto;
+    padding: 63px 0 79px 0;
+}
+.description{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content-text{
+    width: 33%;
+    margin:  auto;
+    padding: 0;
+}
+.content-image{
+    width: 66%;
+    border: none;
+    margin:  auto;
+    padding: 0;
+}
+.content-image > img   {
+    width: 100%;
+    display: block;
+    margin:  auto;
+    padding: 0;
+
+}
