@@ -68,6 +68,7 @@ a {
     display: flex;
     flex-direction: column;
     background-image: url("../images/index_background.svg");
+    background-repeat: no-repeat;
     background-size: cover;
     padding: 46px 0 0 0;
 }
